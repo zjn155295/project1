@@ -1,0 +1,104 @@
+*{margin: 0;padding: 0;}
+input{background-color: black;color: #fff; font-weight: bold;}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("https://r1.realme.net/general/20201215/1607998637511.jpg");
+    background-repeat: no-repeat;
+    background-position: -617px -379px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    border-radius: 50%;
+}
+.box > input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    outline: none;
+    font-size: 20px;
+}
+.box > input:nth-child(1){
+    display: block;
+    margin-left: 26px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+}
+.boxs{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box >.boxs > input{
+    outline: none;
+    width: 65px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 1px white inset;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0 1px 1px black;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    border-radius: 50%;
+    display: none;
+}
+.box1 > input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    outline: none;
+    font-size: 20px;
+}
+.box1 > input:nth-child(1){
+    margin-left: 26px;
+}
+.box1 > input:nth-child(3){
+    margin-left: 5px;
+}
+.box2{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2 > input{
+    outline: none;
+    width: 65px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 1px white inset;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0 1px 1px black;
+    background-color: skyblue;
+    cursor: pointer;
+}
